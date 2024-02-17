@@ -178,3 +178,76 @@
     position: relative;
     bottom: -10px;
 }
+
+.dark__section {
+    background: #F5F5F5;
+    position: relative;
+    bottom: -100px;
+    height: 1469px;
+}
+
+.dark__card {
+    width: 299.98px;
+    height: 383.98px;
+    left: 10px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: -80px;
+   margin-top: 20px;
+
+}
+
+.dark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dark__card--h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+
+
+}
+
+.dark__card--p {
+    font-family: Vollkorn;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #333333;
+}
+
+.dark__h2 {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+
+}
+.dark__hr{
+    width: 80px;
+    height: 2px;
+    background: #00000017;
+    border: 1px solid #120c0c17;
+    border-radius: 1px;
+    position: relative;
+    bottom: -70px;
+}
+.member__card{
+    width: 240px;
+    height: 339px;
+    background-color: #333333;
+}
