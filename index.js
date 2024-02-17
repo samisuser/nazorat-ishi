@@ -84,7 +84,7 @@ for (let i = 0; i < data.length; i++) {
     dark.appendChild(card)
 }
 
-var member = [
+var memberData = [
     {
         cartoon: "./assets/images/man.png",
         nick: "Ron Swanson",
@@ -114,8 +114,8 @@ var member = [
 
 var member = document.querySelector("#member")
 
-for (let i = 0; i < member.length; i++) {
-    const elem = member[i];
+for (let i = 0; i < memberData.length; i++) {
+    const elem = memberData[i];
     console.log(elem);
 
     var card = document.createElement("div")
@@ -132,10 +132,10 @@ for (let i = 0; i < member.length; i++) {
     social.className = "member__card--img"
 
 
-    nick.textContent = (element.nick)
-    level.textContent = (element.level)
-    cartoon.setAttribute("src", element.cartoon)
-    social.setAttribute("src", element.social)
+    nick.textContent = (elem.nick)
+    level.textContent = (elem.level)
+    cartoon.setAttribute("src", elem.cartoon)
+    social.setAttribute("src", elem.social)
 
     card.appendChild(cartoon)
     card.appendChild(nick)

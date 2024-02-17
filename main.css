@@ -77,7 +77,7 @@
     bottom: -130px;
 }
 
-.section {
+.section1 {
     background: #FEFEC9;
     width: 100%;
     height: 289px;
@@ -193,7 +193,7 @@
     background-color: #ffffff;
     position: relative;
     bottom: -80px;
-   margin-top: 20px;
+    margin-top: 20px;
 
 }
 
@@ -237,7 +237,8 @@
     bottom: -50px;
 
 }
-.dark__hr{
+
+.dark__hr {
     width: 80px;
     height: 2px;
     background: #00000017;
@@ -246,8 +247,213 @@
     position: relative;
     bottom: -70px;
 }
-.member__card{
+
+.member__card {
     width: 240px;
     height: 339px;
-    background-color: #333333;
+    text-align: center;
+
+}
+
+.member {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.end {
+    margin-top: 120px;
+}
+
+.end__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.end__ul--li {
+    width: 300px;
+    height: 373px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.end__ul--li-img {
+    width: 64px;
+    height: 64px;
+}
+
+.end__ul--li-p {
+    font-family: Vollkorn;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.end__ul--li-small {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.end__img {
+    text-align: center;
+}
+
+.end {
+    text-align: center;
+}
+
+.section {
+    background-image: url(./assets/images/backroundf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 571px;
+}
+
+.get__h2 {
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    bottom: -80px;
+
+}
+
+.get__hr {
+    width: 80px;
+    height: 2px;
+    background: #00000017;
+    border: 1px solid #120c0c17;
+    border-radius: 1px;
+    position: relative;
+    bottom: -120px;
+}
+
+.get__ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+    left: -20px;
+}
+
+.get__ul--li {
+    width: 170px;
+    height: 238px;
+    text-align: center;
+}
+
+.get__ul--li-h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.get__ul--li-p {
+    font-family: Vollkorn;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.fsection {
+    background-color: black;
+    height: 700px;
+    position: relative;
+    top: -20px;
+    text-align: center;
+}
+
+.footer__input {
+    width: 564px;
+    height: 57px;
+    background: #FFFFFF2E;
+    border: none;
+    font-family: Vollkorn;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: start;
+    border: 1px solid #404040;
+    position: relative;
+    bottom: -30px;
+
+
+
+}
+
+.footer__com {
+    width: 564px;
+    height: 127px;
+    background: #FFFFFF2E;
+    border: none;
+    font-family: Vollkorn;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: start;
+    margin-top: 30px;
+
+
+
+}
+
+.footer__button {
+    width: 210px;
+    height: 53px;
+    font-family: Vollkorn;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8BCAC3;
+    background-color: black;
+    border: 1px solid #8BCAC3;
+    position: relative;
+    bottom: -50px;
+    right: -30px;
+   
+}
+.footer__logo{
+    position: relative;
+    bottom: -160px;
+    right:  100px;
+}
+.info__p{
+    color: #404040;
+    position: relative;
+    bottom: -160px;
 }
